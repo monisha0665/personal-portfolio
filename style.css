@@ -11,7 +11,6 @@
     position: relative;
 }
 
-/* NAVBAR */
 .navbar{
     width: 86%;
     display: flex;
@@ -23,9 +22,9 @@
 .logo{
     width: 160px;
     cursor: pointer;
-    margin-top: 10px;   /* move logo down */
+    margin-top: 10px;   
 }
-/* MENU */
+
 ul{
     margin-top: -4%;
 }
@@ -40,7 +39,7 @@ ul li a{
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    color: white;   /* FIXED */
+    color: white;  
     transition: 0.4s;
 }
 
@@ -48,7 +47,6 @@ ul li a:hover{
     color: red;
 }
 
-/* INFO */
 .info{
     margin-left: 10%;   /* closer to image */
     margin-top: 5%;     /* slightly up */
@@ -56,14 +54,14 @@ ul li a:hover{
 
 .info h1{
     font-size: 65px;
-    color: red;    /* FIXED */
+    color: red;   
 }
 
 .info h3{
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 24px;
-    color: white;  /* FIXED */
+    color: white;  
 }
 
 .info span{
@@ -85,24 +83,22 @@ ul li a:hover{
     background: darkred;
 }
 
-/* IMAGE */
 .image{
     width: 30%;
     height: 70%;
     position: absolute;
-    right: 60px;     /* closer to text (was 100px) */
-    bottom: 80px;    /* move image UP */
+    right: 60px;     
+    bottom: 80px;  
 }
 
 
 .image img{
     height: 100%;
     position: absolute;
-    left: 45%;      /* slightly closer to description */
+    left: 45%;     
     transform: translateX(-50%);
 }
 
-/* SOCIAL ICONS */
 .social{
     position: absolute;
     left: 7%;
