@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
+/* ===== MAIN SECTION ===== */
 .main{
     width: 100%;
     height: 100vh;
@@ -11,6 +13,7 @@
     position: relative;
 }
 
+/* ===== NAVBAR ===== */
 .navbar{
     width: 86%;
     display: flex;
@@ -19,10 +22,10 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .logo{
     width: 160px;
     cursor: pointer;
-    margin-top: 10px;   
 }
 
 ul{
@@ -39,7 +42,7 @@ ul li a{
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    color: white;  
+    color: white;
     transition: 0.4s;
 }
 
@@ -47,21 +50,21 @@ ul li a:hover{
     color: red;
 }
 
+/* ===== HOME INFO ===== */
 .info{
-    margin-left: 10%;   /* closer to image */
-    margin-top: 5%;     /* slightly up */
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 .info h1{
     font-size: 65px;
-    color: red;   
+    color: red;
 }
 
 .info h3{
     font-size: 18px;
-    letter-spacing: 1px;
     line-height: 24px;
-    color: white;  
+    color: white;
 }
 
 .info span{
@@ -83,22 +86,23 @@ ul li a:hover{
     background: darkred;
 }
 
+/* ===== IMAGE ===== */
 .image{
     width: 30%;
     height: 70%;
     position: absolute;
-    right: 60px;     
-    bottom: 80px;  
+    right: 60px;
+    bottom: 80px;
 }
-
 
 .image img{
     height: 100%;
     position: absolute;
-    left: 45%;     
+    left: 45%;
     transform: translateX(-50%);
 }
 
+/* ===== SOCIAL ICONS ===== */
 .social{
     position: absolute;
     left: 7%;
@@ -106,8 +110,45 @@ ul li a:hover{
 }
 
 .social img{
-    width: 50px;
+    width: 40px;
     margin-right: 15px;
     cursor: pointer;
+}
+
+/* ===== COMMON SECTIONS ===== */
+.section{
+    padding: 80px 10%;
+    background: #111;
+    color: white;
+}
+
+.section h2{
+    font-size: 36px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.section p{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* ===== SKILLS ===== */
+.skills-list li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* ===== WORKS ===== */
+.works{
+    display: flex;
+    gap: 20px;
+}
+
+.work-card{
+    background: darkred;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
 }
 
