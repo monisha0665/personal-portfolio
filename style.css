@@ -117,7 +117,7 @@ ul li a:hover{
 
 /* ===== COMMON SECTIONS ===== */
 .section{
-    padding: 80px 10%;
+    padding: 50px 10%;   /* reduced from 80px to 50px */
     background: #111;
     color: white;
 }
@@ -125,9 +125,8 @@ ul li a:hover{
 .section h2{
     font-size: 36px;
     color: red;
-    margin-bottom: 20px;
+    margin-bottom: 15px;  /* was 20px, now slightly smaller */
 }
-
 .section p{
     font-size: 18px;
     line-height: 28px;
